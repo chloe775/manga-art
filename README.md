@@ -8,14 +8,19 @@
 ### Objectifs du 18 au 22 septembre :
 
 - Revoir le figma de mon projet puis le modifier en dehors des cours 🥹
-- Etablir un moodbord 📓
+- Etablir un mood-bord 📓
 - Crée la page d'acceuil grossierement sur mobile 📱
-- crée la gage d'aaceuil grossierement sur desktop 💻
+- Crée la gage d'acceuil grossierement sur desktop 💻
 - Crée la page secondaire grossierement sur mobile 📱
-- crée la gage secondaire grossierement sur desktop 💻
+- Crée la gage secondaire grossierement sur desktop 💻
 - Continuer l'avancer de mon portfolio en dehors des cours 📖
-- finir le step2 du PHP 🐘
+- Finir le step2 du PHP 🐘
+
+## Me retrouver 📍
+
+### Link : 
+
 
 Linkedin [📱] (www.linkedin.com/in/chloe-devise)  
 Portfolio [🔗] (https://devise-portfolio.fr)  
-GitHub [🔗] (https://github.com/chloe775)  
+GitHub [🔗] (https://github.com/chloe775)
