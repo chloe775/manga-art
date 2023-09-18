@@ -1,1 +1,2 @@
-console.log("Go To React");
+import Router from "./src/middleware/router";
+Router();
