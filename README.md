@@ -20,6 +20,8 @@ ce qui permettrait aux personnes en manques d'idées puisse s'y retrouver. // �
 ### Link : 
 
 
-Linkedin [📱] (www.linkedin.com/in/chloe-devise)  
-Portfolio [🔗] (https://devise-portfolio.fr)  
 GitHub [🔗] (https://github.com/chloe775)
+Portfolio [🔗] (https://devise-portfolio.fr)  
+Linkedin [📱] (www.linkedin.com/in/chloe-devise)  
+Instagram Dev [🔗] (https://www.instagram.com/devchlo7/)
+Instagram dessin [🔗] (www.instagram.com/an.i.me_artist/)
