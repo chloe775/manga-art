@@ -7,7 +7,7 @@ J'ai eu une idée de site web qui permettrait de partager chaque jour un manga /
 ce qui permettrait aux personnes en manques d'idées puisse s'y retrouver. // 😏✅
 [@an.i.me_artist](https://instagram.com/an.i.me_artist?igshid=NzZhOTFlYzFmZQ==) <3
 
-### Objectifs du 18 au 22 septembre :
+### Objectifs du 02.10. 23 au 06.10.23 :
 
 - Continuer l'avancer de mon portfolio avant le 03.10.23 📖
 - finir les détails du figma de mon projet puis le modifier en dehors des cours 🥹
