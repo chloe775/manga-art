@@ -6,6 +6,5 @@
   "build/vendors-node_modules_webpack-dev-server_client_index_js_protocol_ws_3A_hostname_localhost_por-3885b1.js": "http://localhost:8080/build/vendors-node_modules_webpack-dev-server_client_index_js_protocol_ws_3A_hostname_localhost_por-3885b1.js",
   "build/vendors-frontend_node_modules_react-dom_client_js-frontend_node_modules_react-router-dom_dist-6a1ba5.js": "http://localhost:8080/build/vendors-frontend_node_modules_react-dom_client_js-frontend_node_modules_react-router-dom_dist-6a1ba5.js",
   "build/assets_css_styles_css.css": "http://localhost:8080/build/assets_css_styles_css.css",
-  "build/vendors-frontend_node_modules_core-js_modules_es_object_to-string_js-frontend_node_modules_co-de980a.js": "http://localhost:8080/build/vendors-frontend_node_modules_core-js_modules_es_object_to-string_js-frontend_node_modules_co-de980a.js",
-  "build/vendors-frontend_node_modules_core-js_modules_es_error_cause_js-frontend_node_modules_core-js-27330c.js": "http://localhost:8080/build/vendors-frontend_node_modules_core-js_modules_es_error_cause_js-frontend_node_modules_core-js-27330c.js"
+  "build/vendors-frontend_node_modules_react-dom_client_js-frontend_node_modules_react-router-dom_dist-85fdf1.js": "http://localhost:8080/build/vendors-frontend_node_modules_react-dom_client_js-frontend_node_modules_react-router-dom_dist-85fdf1.js"
 }

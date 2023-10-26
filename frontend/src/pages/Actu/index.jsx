@@ -10,9 +10,7 @@ const Actu = () => {
             <ul>
               <li>
                 <div>
-                  <button>
-                    acceuil
-                  </button>
+                  <button>acceuil</button>
                 </div>
                 <div></div>
                 <div></div>
@@ -90,6 +88,7 @@ const Actu = () => {
                   </div>
                 </div>
               </div>
+              
             </div>
           </div>
         </div>

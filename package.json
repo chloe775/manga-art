@@ -15,6 +15,7 @@
     "tailwindcss": "^3.3.3"
   },
   "dependencies": {
-    "react-anchor-link-smooth-scroll": "^1.0.12"
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-responsive-carousel": "^3.2.23"
   }
 }
