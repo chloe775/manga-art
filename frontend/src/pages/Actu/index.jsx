@@ -1,4 +1,9 @@
 import React from "react";
+import { ReactDOM } from "react";
+
+
+
+
 
 const Actu = () => {
   return (
@@ -6,18 +11,6 @@ const Actu = () => {
       <div>
         {/* BACKGROUND DE LA PAGE ENTIERE ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */}
         <div className="bg-gradient-to-r from-violet-500 to-fuchsia-500">
-          <div>
-            <ul>
-              <li>
-                <div>
-                  <button>acceuil</button>
-                </div>
-                <div></div>
-                <div></div>
-                <div></div>
-              </li>
-            </ul>
-          </div>
           {/* BACKGROUND DE LA PAGE ENTIERE ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */}
           <h1 className="text-red-500 italic text-3xl bg-black">
             Place de la nav a ajt <br />
@@ -29,9 +22,7 @@ const Actu = () => {
           </div>
 
           <div className="flex justify-center ">
-            {/* BACKGROUND DU PREMIER BLOCK QUI ENGLOBE LES DIV  ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/}
             <div className="bg-black w-1/2  ">
-              {/* BACKGROUND DU PREMIER BLOCK QUI ENGLOBE LES DIV  ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/}
               <div>
                 <h4 className="text-white"> 1 Jour = 1 manga </h4>
               </div>
@@ -88,8 +79,10 @@ const Actu = () => {
                   </div>
                 </div>
               </div>
-              
             </div>
+          </div>
+          <div>
+            
           </div>
         </div>
       </div>
