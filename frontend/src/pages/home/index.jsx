@@ -12,10 +12,10 @@ const Home = () => {
 
       <div>
         <nav>
-          <div className="bg-white   ">
-            <div className=" py-6 bg-black hidden lg:grid grid-cols-4 text-white r">
-              <div>
-                <p>ajouter mon logo</p>
+          <div className="bg-white">
+            <div className=" py-6 bg-black hidden lg:grid grid-cols-3 text-white ">
+              <div className="flex justify-center">
+                <img src="images/div12.png" alt="logo" width={150}/>
               </div>
               <div>
                 <p>barre de recherche a ajouter</p>
@@ -25,8 +25,6 @@ const Home = () => {
                   {" "}
                   se connecter<a href=""></a>
                 </button>
-              </div>
-              <div>
                 <button>
                   {" "}
                   s inscrire <a href=""></a>
@@ -34,10 +32,10 @@ const Home = () => {
               </div>
             </div>
             <div className="pr-20">
-              <div className="flex flex-row justify-center text-[rgb(252,206,80)]">
+              <div className="flex flex-row justify-center text-purple-900">
                 <div className="hidden lg:flex justify-end text-whitepr-10 ">
                   <ul className="flex flex-row uppercase">
-                    <li className="inline-flex py-2 hover:hover:text-pink-500 hover:underline-offset-4  ease-in duration-300 hover:border-b-2 hover:border-[rgb(252,206,80)]">
+                    <li className="inline-flex py-2 hover:hover:text-pink-500 ease-in duration-300 ]">
                       <a href="#">Accueil</a>
                     </li>
                     <li
@@ -180,33 +178,37 @@ const Home = () => {
 
       {/* div avec fond blanc premkiere partie */}
 
-      <div className=" bg-gradient-to-r from-violet-500 to-fuchsia-500  ">
-        <div className="">
+      <div className=" bgbizzare">
+        <div className="lg:hidden">
           <img src="images/banierejojo.jpg" />
         </div>
 
-        <div>
-          <div className="flex justify-center">
+        <div className="lg:flex justify-center  hidden ">
+          <img src="images/poyo2.jpg" alt="jojos" />
+        </div>
+
+        <div className="lg:flex justify-center">
+          <div className="flex justify-center lg:w-2/3">
             <div className="bg-white py-4 min-w-full">
               <div className="text-4xl flex justify-center ">
                 <h1>L'ESSENTIEL DE L'ACTUALITÉ MANGA & ANIME</h1>
               </div>
+
               <div className="pt-4">
-                <div className="grid grid-cols-3 space-x-4 ml-4 mr-4  ">
-                  <div class="   flex flex-col items-start bg-[#FBFBEB] py-6">
-                    <span class="inline-block py-1 px-2 rounded bg-purple-50 text-purple-500 text-xs font-medium tracking-widest">
+                <div className="grid grid-cols-3 space-x-4 ml-4 mr-4 lg:grid lg:grid-cols-5 ">
+                  <div class="flex flex-col items-start bg-red-300 py-6 ">
+                    <span class="inline-block py-1 px-2 rounded bg-purple-50 text-purple-500 text-xs font-medium tracking-widest ml-2">
                       CATEGORY
                     </span>
-                    <h2 class="sm:text-2xl text-xl title-font  text-gray-900 ">
-                      Nom Du Manga
+                    <h2 class="sm:text-2xl text-xl title-font  text-gray-900 ml-2 font-bold">
+                      Jojos Bizzare Adventure
                     </h2>
-                    <p class="leading-relaxed mb-8">Nom Du Createur</p>
                     <div>
                       <div>
-                        <img src="images/th.jpg" />
+                        <img src="images/.jpg" />
                       </div>
                     </div>
-                    <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 w-full mt-6">
+                    <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 w-full mt-6 ml-2">
                       <a class="text-purple-500 inline-flex items-center ">
                         En Savoir +
                         <svg
@@ -249,25 +251,147 @@ const Home = () => {
                         >
                           <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
                         </svg>
-                        6
+                        <div className="mr-6">
+                          <p>6</p>
+                        </div>
                       </span>
                     </div>
                   </div>
-                  <div class="   flex flex-col items-start bg-[#FBFBEB]">
-                    <span class="inline-block py-1 px-2 rounded bg-purple-50 py-6 text-purple-500 text-xs font-medium tracking-widest">
+                  <div class="flex flex-col items-start bg-blue-300 py-6 bg-imagess bg-cover ">
+                    <span class="inline-block py-1 px-2 rounded bg-purple-50 text-purple-500 text-xs font-medium tracking-widest ml-2">
                       CATEGORY
                     </span>
-                    <h2 class="sm:text-2xl text-xl title-font  text-gray-900 ">
-                      Nom Du Manga
+                    <h2 class="sm:text-2xl text-xl title-font  text-gray-900 ml-2 ">
+                      Saint Seiya
                     </h2>
-                    <p class="leading-relaxed mb-8">Nom Du Createur</p>
+
+                    <div>
+                      <div className="border-b-2 border-gray-100 w-full"></div>
+                    </div>
+                    <div class="flex items-center flex-wrap pb-4 mb-4  mt-6 ml-2">
+                      <a class="text-purple-500 inline-flex items-center">
+                        En Savoir +
+                        <svg
+                          class="w-4 h-4 ml-2"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          fill="none"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path d="M5 12h14"></path>
+                          <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                      <span class="text-gray-400 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 ">
+                        <svg
+                          class="w-4 h-4 mr-1"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          fill="none"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          viewBox="0 0 24 24"
+                        >
+                          <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                          <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                        1.2K
+                      </span>
+                      <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                        <svg
+                          class="w-4 h-4 mr-1"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          fill="none"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          viewBox="0 0 24 24"
+                        >
+                          <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                        </svg>
+                        <div className="mr-6">
+                          <p>6</p>
+                        </div>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="  flex flex-col items-start bg-green-300 py-6">
+                    <span class="inline-block py-1 px-2 rounded bg-purple-50 text-purple-500 text-xs font-medium tracking-widest ml-2">
+                      CATEGORY
+                    </span>
+                    <h2 class="sm:text-2xl text-xl title-font  text-gray-900 ml-2">
+                      GTO
+                    </h2>
+                    <div>
+                      <img src="images/th.jpg" />
+                    </div>
+                    <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 w-full mt-6">
+                      <div></div>
+                      <a class="text-purple-500 inline-flex items-center ml-2">
+                        En Savoir +
+                        <svg
+                          class="w-4 h-4 ml-2"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          fill="none"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path d="M5 12h14"></path>
+                          <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                      <span class="text-gray-400 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 ">
+                        <svg
+                          class="w-4 h-4 mr-1"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          fill="none"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          viewBox="0 0 24 24"
+                        >
+                          <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                          <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                        1.2K
+                      </span>
+                      <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                        <svg
+                          class="w-4 h-4 mr-1"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          fill="none"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          viewBox="0 0 24 24"
+                        >
+                          <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                        </svg>
+                        <div className="mr-6">
+                          <p>6</p>
+                        </div>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="hidden lg:flex flex-col items-start bg-blue-300 py-6">
+                    <span class="inline-block py-1 px-2 rounded bg-purple-50 text-purple-500 text-xs font-medium tracking-widest ml-2">
+                      CATEGORY
+                    </span>
+                    <h2 class="sm:text-2xl text-xl title-font  text-gray-900 ml-2 ">
+                      Naruto
+                    </h2>
 
                     <div>
                       <div>
                         <img src="images/th.jpg" />
                       </div>
                     </div>
-                    <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 w-full mt-6">
+                    <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 w-full mt-6 ml-2">
                       <a class="text-purple-500 inline-flex items-center">
                         En Savoir +
                         <svg
@@ -310,24 +434,27 @@ const Home = () => {
                         >
                           <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
                         </svg>
-                        6
+                        <div className="mr-6">
+                          <p>6</p>
+                        </div>
                       </span>
                     </div>
                   </div>
 
-                  <div class="  flex flex-col items-start bg-[#FBFBEB]">
-                    <span class=" inline-block py-1 px-2 rounded bg-purple-50 py-6 text-purple-500 text-xs font-medium tracking-widest">
+                  <div class="hidden lg:flex flex-col items-start bg-red-300 py-6">
+                    <span class="inline-block py-1 px-2 rounded bg-purple-50 text-purple-500 text-xs font-medium tracking-widest ml-2">
                       CATEGORY
                     </span>
-                    <h2 class="sm:text-2xl text-xl title-font  text-gray-900 ">
-                      Nom Du Manga
+                    <h2 class="sm:text-2xl text-xl title-font  text-gray-900 ml-2 ">
+                      One Piece
                     </h2>
-                    <p class="leading-relaxed mb-8">Nom Du Createur</p>
+
                     <div>
-                      <img src="images/th.jpg" />
+                      <div>
+                        <img src="images/th.jpg" />
+                      </div>
                     </div>
-                    <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 w-full mt-6">
-                      <div></div>
+                    <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 w-full mt-6 ml-2">
                       <a class="text-purple-500 inline-flex items-center">
                         En Savoir +
                         <svg
@@ -370,7 +497,9 @@ const Home = () => {
                         >
                           <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
                         </svg>
-                        6
+                        <div className="mr-6">
+                          <p>6</p>
+                        </div>
                       </span>
                     </div>
                   </div>
@@ -390,17 +519,20 @@ const Home = () => {
 
               <div>
                 <div className="text-4xl flex justify-center mt-4">
-                  <h1>L'ESSENTIEL DE L'ACTUALITÉ MANGA & ANIME</h1>
+                  <h1>L'ESSENTIEL DE L'ACTUALITÉ MANGA & ANIME 2EME PARTIE </h1>
                 </div>
-                <div className="carousel w-full mt-4">
-                  <div id="slide1" className="carousel-item  w-full ">
+                <div id="slide" className="carousel w-full mt-4 flex ">
+                  <div
+                    id="slide1"
+                    className="carousel-item  w-full justify-center"
+                  >
                     <img
                       src="/images/th.jpg"
                       sizes=""
-                      className="flex justify center"
+                      className="flex justify-center"
                     />
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                      <a href="#slide4" className="btn btn-circle">
+                      <a href="#slide1" className="btn btn-circle">
                         ❮
                       </a>
                       <a href="#slide2" className="btn btn-circle">
@@ -408,8 +540,12 @@ const Home = () => {
                       </a>
                     </div>
                   </div>
-                  <div id="slide2" className="carousel-item  w-full">
-                    <img src="/images/th.jpg" className="" />
+
+                  <div
+                    id="slide2"
+                    className="carousel-item w-full justify-center"
+                  >
+                    <img src="/images/jojos1.jpg" className="" />
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                       <a href="#slide1" className="btn btn-circle">
                         ❮
@@ -419,8 +555,12 @@ const Home = () => {
                       </a>
                     </div>
                   </div>
-                  <div id="slide3" className="carousel-item  w-full">
-                    <img src="/images/th.jpg" className="" />
+
+                  <div
+                    id="slide3"
+                    className="carousel-item w-full justify-center "
+                  >
+                    <img src="/images/jojos2.jpg" className="" />*
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                       <a href="#slide2" className="btn btn-circle">
                         ❮
@@ -430,13 +570,17 @@ const Home = () => {
                       </a>
                     </div>
                   </div>
-                  <div id="slide4" className="carousel-item  w-full">
-                    <img src="/images/th.jpg" className="" />
+
+                  <div
+                    id="slide4"
+                    className="carousel-item  w-full justify-center"
+                  >
+                    <img src="/images/jojos3.jpg" className="" />
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                       <a href="#slide3" className="btn btn-circle">
                         ❮
                       </a>
-                      <a href="#slide1" className="btn btn-circle">
+                      <a href="#slide4" className="btn btn-circle">
                         ❯
                       </a>
                     </div>

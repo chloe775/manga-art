@@ -37,3 +37,12 @@
     inset -2px -2px 3px rgba(255, 255, 255, 0.6),
     inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
+
+.bgbizzare {
+background: rgb(167,105,103);
+background: linear-gradient(0deg, rgba(167,105,103,1) 9%, rgba(255,218,215,1) 100%);
+}
+
+.bg-imagess {
+  background-image: url("../../public/images/stseiya.jpg");
+}
